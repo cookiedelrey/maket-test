@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;                                                                
+}
+@font-face { 
+  font-family: "GothamProLight";
+  src: url("./assets/fonts/gothampro_light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face { 
+  font-family: "GothamProBold";
+  src: url("./assets/fonts/gothampro_black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+.container {
+  background: #ffffff;
+  border-radius: 20px;
+  font-family: "GothamProLight";
+}
+.left-side {
+  display: flex;
+  margin-top: 26px;
+  margin-left: 50px;
+  position: absolute;
+  width: 310px;
+  height: 450px;
+  left: 0px;
+  top: 0px;
+  background: #efefef;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.bg-text {
+  font-family: "GothamProBold";
+  position: absolute;
+  width: 286px;
+  height: 352px;
+  left: 50px;
+  top: -20px;
+  font-weight: 900;
+  font-size: 92px;
+  line-height: 125px;
+  display: flex;
+  align-items: center;
+  mix-blend-mode: soft-light;
+}
+.bg-text2 {
+  font-family: "GothamProBold";
+  position: absolute;
+  width: 286px;
+  height: 352px;
+  left: 15px;
+  top: 175px;
+  font-weight: 900;
+  font-size: 92px;
+  line-height: 125px;
+  display: flex;
+  align-items: center;
+  mix-blend-mode: soft-light;
+}
+.arrow {
+  position: absolute;
+  width: 120px;
+  height: 59.69px;
+  left: 229px;
+  top: 340px;
+}
+.book {
+  position: absolute;
+  width: 394px;
+  height: 337px;
+  left: -45px;
+  top: 46px;
+}
+.right-side {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 360px;
+  height: 450px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.main-texts {
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: "GothamProBold";
+  position: absolute;
+  width: 218px;
+  height: 23px;
+  left: 469px;
+  top: 54px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #0d0d0d;
+}
+.sub-title {
+  font-family: "GothamProBold";
+  position: absolute;
+  width: 323px;
+  height: 44px;
+  left: 418px;
+  top: 145px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0d0d0d;
+}
+.under-title {
+  position: absolute;
+  width: 323px;
+  height: 13px;
+  left: 487px;
+  top: 125px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0d0d0d;
+}
+.under-sub-title {
+  position: absolute;
+  width: 323px;
+  height: 26px;
+  left: 418px;
+  top: 195px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  color: #0d0d0d;
+}
+.steps {
+  position: absolute;
+  width: 323px;
+  height: 11px;
+  left: 437px;
+  top: 240px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0d0d0d;
+}
+.email-descr {
+  margin-bottom: 10px;
+  width: 322px;
+  height: 11px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.application-form {
+  position: absolute;
+  top: 285px;
+  left: 415px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  box-sizing: border-box;
+  width: 323px;
+  height: 50px;
+  border: 2px solid #f3ce00;
+  border-radius: 4px;
+}
+input::placeholder {
+  color: #0d0d0d;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 18px 15px;
+}
+button {
+  font-family: "GothamProBold";
+  margin-top: 15px;
+  width: 323px;
+  height: 50px;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(92.64deg, #ff5621 29.24%, #f21313 83.67%);
+  border: none;
+  border-radius: 4px;
+}
+b{
+  font-family: "GothamProBold";
+  font-weight: 900;
+}
